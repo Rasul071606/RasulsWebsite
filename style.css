@@ -1,0 +1,215 @@
+/* *{
+    border: solid white 4px;
+} */
+
+
+.name{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.description{
+    color: #FC364A;
+}
+
+.linkImages{
+    width: 5rem;
+    height: 5rem;
+}
+
+.linkImages:hover{
+    opacity: 0.5;
+}
+
+.col{
+    padding: 1rem;
+    /* border: 2px solid #fff; */
+    color: #ffff;
+}
+
+.body{
+    background-color: #0E2C40;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar{
+    /* background-color: #71797E; */
+    background-color: #123954;
+}
+
+#navText:hover{
+    opacity:0.5;
+    
+}
+
+#html{
+    scroll-behavior: smooth;
+}
+
+
+#navText{
+    transition: 0.3s;
+    color: white;
+    font-family: 'Secular One', sans-serif; 
+}
+
+#aboutmeBtn{
+    background-color: #123954; 
+    border: solid 2px #FC364A;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15%;
+    font-family: 'Secular One', sans-serif;
+}
+
+.aboutMe{
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-weight: lighter;
+}
+
+.aboutMeHeading{
+    font-size: 3rem;
+}
+
+.aboutMeDescription{
+    font-size: 1.5rem;
+}
+
+
+/* .navbar-nav > li > .dropdown-menu a{ 
+    color: #555555;  
+} */
+
+
+.personalPic{
+    border: 5px solid #123954;
+    border-radius: 10%;
+}
+
+.skillsLogos{
+    width: 6rem;
+    height: 6rem;
+}
+
+.turnThisRed{
+    color: #FC364A;
+    background-color: #0E2C40;
+}
+
+
+
+@media(max-width: 415px){
+    .col{
+        width: 100%;
+    }
+    .name{
+        font-size: 4rem;
+    }
+    .description{
+        font-size: 1rem;
+    }
+    #abtMeButton{
+        justify-content: center; 
+    }
+    .aboutMeHeading{
+        font-size: 2rem;
+    }
+    .aboutMeDescription{
+        font-size: 1rem;
+    }
+    .weatherToGoHeading{
+        font-size: 1rem;
+    }
+    .weatherToGoInfo{
+        font-size: 1rem;
+    }
+    .stockFinancingHeading{
+        font-size: 1rem;
+    }
+    .stockFinancingInfo{
+        font-size: 1rem;
+    }
+    .apStatsHeading{
+        font-size: 1rem;
+    }
+    .apStatsInfo{
+        font-size: 1rem;
+    }
+}
+
+
+#projectText{
+    color: white;
+}
+
+#weatherToGo{
+    background-color: #123954;
+}
+
+#weatherToGo:hover{
+    opacity:.5;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+.email{
+    color: white;
+}
+#apStats{
+    background-color: #123954;;
+}
+
+#apStats:hover{
+    opacity: 0.5;
+}
+
+
+#stockFinancing:hover{
+    opacity: 0.5;
+}
+
+#TBD2{
+    background-color: #123954;;
+}
+
+#projectsTab{
+    font-family: 'Secular One', sans-serif;
+}
+
+
+#contactMeSection{
+    color: white;
+}
+
+a.nav-link{
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+
+a.nav-link::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    bottom:0; 
+    left: 0;
+    height: 4px;
+    transition: width .4s ease-out;
+    background-color: white;;
+ }
+
+ a.nav-link:hover.nav-link::after{
+    width: 100%;
+ }
+
+
