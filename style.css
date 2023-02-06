@@ -1,6 +1,6 @@
-/* *{
-    border: solid white 4px;
-} */
+*{
+    border: solid white 2px;
+}
 
 
 .name{
@@ -104,7 +104,11 @@
     background-color: #0E2C40;
 }
 
-
+@media(max-width: 769px){
+    #projectsTab{
+        display: flex;
+    }
+}
 
 @media(max-width: 415px){
     .col{
@@ -146,6 +150,12 @@
 }
 
 
+.AboutMeButtonAnchor:link{
+    text-decoration: none;
+    text-decoration: white;
+}
+
+
 #projectText{
     color: white;
 }
@@ -157,10 +167,11 @@
 #weatherToGo:hover{
     opacity:.5;
 }
-
-.navbar-toggler-icon{
-    background-color: white;
+button.navbar-toggler{
+    border-color: white;
 }
+
+
 
 .email{
     color: white;

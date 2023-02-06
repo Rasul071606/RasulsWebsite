@@ -6,6 +6,7 @@ let homeSection = document.getElementById("#homeArea")
 let aboutMeSection = document.getElementById("#aboutMeArea")
 let projectsSection = document.getElementById("#projectsArea")
 let contactMeSection = document.getElementById("#contactMeArea")
+let aboutMeRealBtn = document.querySelector(".btn-primary")
 
 
 
@@ -16,6 +17,11 @@ let contactMeSection = document.getElementById("#contactMeArea")
 homeBtn.onclick = function(){
     console.log("home hooray")
     homeSection.scrollIntoView()
+}
+
+aboutMeRealBtn.onclick = function(){
+    console.log("about me hooray")
+    aboutMeSection.scrollIntoView({behavior: "smooth"});
 }
 
 aboutMeBtn.onclick = function(){
