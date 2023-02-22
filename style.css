@@ -105,9 +105,12 @@
 }
 
 @media(max-width: 769px){
-    #projectsTab{
-        display: flex;
+    #projectText{
+        display: block;
     }
+    /* .displayProjects{
+        width: 300%
+    } */
 }
 
 @media(max-width: 415px){
