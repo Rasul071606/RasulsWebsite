@@ -12,7 +12,7 @@ let aboutMeRealBtn = document.querySelector(".btn-primary")
 
 
 //All 4 of the navbar buttons are indeed working
-
+// nice
 
 homeBtn.onclick = function(){
     console.log("home hooray")
